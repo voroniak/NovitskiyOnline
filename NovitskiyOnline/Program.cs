@@ -6,7 +6,8 @@ namespace NovitskiyOnline
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FieldPlayer fieldPlayer = new FieldPlayer("fsfsd");
+            Simulator.Move(Position.PenaltyArea, fieldPlayer);
         }
     }
 }
